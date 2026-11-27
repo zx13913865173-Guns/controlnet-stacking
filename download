@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# CUDA/cache
+.cache/
+__pycache__/
+*.pth
+*.pt
+
+# Data (generated images can be very large)
+data/main_experiment/**/*.png
+data/a_only_ablation/**/*.png
+data/cfg15_probe/**/*.png
+data/cross_model/**/*.png
+data/results/figures/*.png
+
+# Keep results JSON but not raw images in git by default
+# Uncomment to track images:
+# !data/**/*.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
